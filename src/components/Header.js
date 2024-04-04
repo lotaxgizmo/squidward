@@ -8,7 +8,7 @@ function Header() {
     return (
         <div className='fixed flex flex-col w-full items-center justify-center z-50 '>
             {/* <img src={squidwardheader} alt="" /> */}
-            <div className="header bg-white flex items-center justify-between border-4 border-[#284063] pt-5 -mt-5 rounded-3xl w-10/12 px-5">
+            <div className="header bg-white flex items-center justify-center lg:justify-between border-4 border-[#284063] pt-5 -mt-5 rounded-3xl w-10/12 lg:px-5">
                 <div className="socials flex">
 
                     <a href="#" target="_blank" rel="noopener noreferrer" className=' z-50 '>
@@ -24,7 +24,7 @@ function Header() {
                     </a>
 
                 </div>
-                <div className="menu flex justify-around py-10 ">
+                <div className="menu lg:flex justify-around py-10 hidden ">
                     <a href="#" target="_blank" rel="noopener noreferrer" className='text-2xl px-5'>HOME</a>
                     <a href="#" target="_blank" rel="noopener noreferrer" className='text-2xl px-5'>TOKENOMICS</a>
                     <a href="#" target="_blank" rel="noopener noreferrer" className='text-2xl px-5'>BUY</a>
