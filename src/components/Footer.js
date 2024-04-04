@@ -10,11 +10,21 @@ function Footer() {
         <div className='flex flex-col items-center px-4 bg-black py-10'>
             <img src={squidtext} alt="" className='my-4' />
             <div className="social flex justify-around  my-4">
-                <img src={squiddex} alt="" />
-                <img src={squidtele} alt="" />
-                <img src={squidx} alt="" />
+                <a href="#">
+                    <img src={squidx} alt="" />
+                </a>
+                <a href="#">
+                    <img src={squidtele} alt="" />
+                </a>
+                <a href="#">
+                    <img src={squiddex} alt="" />
+                </a>
+
             </div>
             <img src={squidrights} alt="" />
+            <p className='text-white text-center'>
+                $SQUID coin has no association with Nickelodeon or SpongeBob SquarePants.  This token is simply paying homage to a meme we all love and recognize.  $SQUID is a meme coin with no intrinsic value or expectation of financial return.  There is no formal team or roadmap. The coin is completely useless and for entertainment purposes only.
+            </p>
 
         </div>
     )

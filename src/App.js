@@ -9,7 +9,7 @@ import Tokenomics from './components/Tokenomics'
 function App() {
   return (
     <div className="relative overflow-hidden">
-      {/* <Header /> */}
+      <Header />
       <Hero />
       <About />
       <Tokenomics />

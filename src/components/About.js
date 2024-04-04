@@ -17,7 +17,9 @@ function About() {
                 <div className="flex flex-col 1 lg:w-2/4 items-start">
                     <img src={text1} alt="" className='my-5' />
                     <img src={text2} alt="" className='my-5' />
-                    <img src={buynowsquidward} alt="" className='my-5' />
+                    <a href="#" className='my-5 z-50' >
+                        <img src={buynowsquidward} alt="" />
+                    </a>
                 </div>
                 <div className="2 lg:w-2/4">
                     <img src={squidwardface} alt="" />
@@ -25,7 +27,7 @@ function About() {
                 </div>
                 <img src={squidwardbills} alt="" className='absolute bottom-0' />
             </div>
-            <img src={motherroll} alt="" className='  bottom-0' />
+            <img src={motherroll} alt="" className='w-full  bottom-0' />
         </div>
     )
 }

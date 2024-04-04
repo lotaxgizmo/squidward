@@ -6,10 +6,12 @@ import readytobuy from '../assets/readytobuy.svg'
 
 function Ready() {
     return (
-        <div className='flex flex-col items-center px-4 relative'>
+        <div className='flex flex-col items-center px-4 relative overflow-hidden'>
             <img src={readytobuy} alt="" className='z-10 w-[800px]' />
             <img src={contractsquidward} alt="" className='z-10 ' />
-            <img src={buynowsquidwardd} alt="" className='z-10 my-10' />
+            <a href="#" className='z-20'>
+                <img src={buynowsquidwardd} alt="" className='z-10 my-10' />
+            </a>
             <img src={bikinidollars2} alt="" className='absolute animate-spin' />
         </div>
     )

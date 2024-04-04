@@ -6,18 +6,22 @@ import neptuneroll from '../assets/neptuneroll.svg'
 import oceanroll from '../assets/oceanroll.svg'
 import squidwardhero from '../assets/squidwardhero.svg'
 import jointelegram from '../assets/jointelegram.svg'
+import gradienthome from '../assets/gradienthome.png'
 
 
 function Hero() {
     return (
-        <div className='flex flex-col relative mt-16 items-center w-full'>
-            <img src={squidwardhero} alt="" className=' px-4' />
-            <img src={jointelegram} alt="" className='mt-4 mb-20  px-4' />
+        <div className='flex flex-col relative pt-44 items-center w-full'>
+            <img src={gradienthome} alt="" className='absolute top-[-200px] left-[10px]  ' />
+            <img src={squidwardhero} alt="" className=' px-4 z-10' />
+            <a href="#" className='z-10'>
+                <img src={jointelegram} alt="" className='mt-4 mb-20  px-4 z-10' />
+            </a>
 
 
             <div className=" flex justify-between images lg:absolute w-full dbg-red-500 mt-[-70px] lg:mt-auto">
-                <img src={heroleft} className='w-32 lg:w-auto' alt="" />
-                <img src={heroright} className='w-28 lg:w-auto mt-[-100px]' alt="" />
+                <img src={heroleft} className='w-32 lg:w-auto  z-10' alt="" />
+                <img src={heroright} className='w-28 lg:w-auto mt-[-100px] z-10' alt="" />
 
             </div>
 

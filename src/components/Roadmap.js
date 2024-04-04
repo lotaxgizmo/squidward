@@ -6,7 +6,7 @@ import squidwardfish from '../assets/squidwardfish.svg'
 
 function Roadmap() {
     return (
-        <div className='flex flex-col items-center px-4'>
+        <div className='flex flex-col items-center px-4 z-20'>
             <img src={roadmapsquidward} alt="" className='my-5' />
             <img src={squidwardrd1} alt="" />
 
