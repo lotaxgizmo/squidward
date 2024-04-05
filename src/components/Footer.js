@@ -10,13 +10,13 @@ function Footer() {
         <div className='flex flex-col items-center px-4 bg-black py-10'>
             <img src={squidtext} alt="" className='my-4' />
             <div className="social flex justify-around  my-4">
-                <a href="#">
+                <a href="https://X.com/squidoneth">
                     <img src={squidx} alt="" />
                 </a>
-                <a href="#">
+                <a href="https://t.me/squidwardeth">
                     <img src={squidtele} alt="" />
                 </a>
-                <a href="#">
+                <a href="https://www.dextools.io/app/en/ether/pair-explorer/0xdfbb47a226b17044592c4e8ecc0819301f9f1e34">
                     <img src={squiddex} alt="" />
                 </a>
 

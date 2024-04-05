@@ -10,14 +10,14 @@ import motherroll from '../assets/motherroll.svg'
 
 function About() {
     return (
-        <div className='flex flex-col relative w-full mt-16 items-center'>
+        <div className='flex flex-col relative w-full mt-16 items-center' id='ABOUT'>
             <img src={aboutaquidward} alt="" />
 
             <div className="flex flex-col lg:flex-row w-full   px-4 relative lg:px-20">
                 <div className="flex flex-col 1 lg:w-2/4 items-start">
                     <img src={text1} alt="" className='my-5' />
                     <img src={text2} alt="" className='my-5' />
-                    <a href="#" className='my-5 z-50' >
+                    <a href="https://app.uniswap.org/swap?outputCurrency=0xa1a92f15c24ad358c3a4d0a8ba4f7db18fbfab2f" className='my-5 z-50' >
                         <img src={buynowsquidward} alt="" />
                     </a>
                 </div>
