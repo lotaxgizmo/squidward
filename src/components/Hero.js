@@ -26,7 +26,7 @@ function Hero() {
       <div className='hidden lg:flex'>
       <CopyToClipboard text="0xa1a92f15c24ad358c3a4d0a8ba4f7db18fbfab2f" />
       </div>
-            <a href="https://t.me/squidwardeth" className='z-10'>
+            <a href="https://t.me/handsome_squid" className='z-10'>
                 <img src={jointelegram} alt="" className='mt-4 mb-202  px-4 z-10' />
             </a>
              

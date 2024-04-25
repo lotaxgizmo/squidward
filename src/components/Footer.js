@@ -13,7 +13,7 @@ function Footer() {
                 <a href="https://X.com/squidoneth">
                     <img src={squidx} alt="" />
                 </a>
-                <a href="https://t.me/squidwardeth">
+                <a href="https://t.me/handsome_squid">
                     <img src={squidtele} alt="" />
                 </a>
                 <a href="https://www.dextools.io/app/en/ether/pair-explorer/0xdfbb47a226b17044592c4e8ecc0819301f9f1e34">

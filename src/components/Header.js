@@ -16,7 +16,7 @@ function Header() {
                         <img src={squidxx} alt="" className='px-1' />
                     </a>
 
-                    <a href="https://t.me/squidwardeth" target="_blank" rel="noopener noreferrer" className=' z-50 '>
+                    <a href="https://t.me/handsome_squid" target="_blank" rel="noopener noreferrer" className=' z-50 '>
                         <img src={squidtelee} alt="" className='px-1' />
                     </a>
 
