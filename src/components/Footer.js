@@ -21,9 +21,10 @@ function Footer() {
                 </a>
 
             </div>
-            <img src={squidrights} alt="" />
+            {/* <img src={squidrights} alt="" /> */}
             <p className='text-white text-center'>
-                $SQUID coin has no association with Nickelodeon or SpongeBob SquarePants.  This token is simply paying homage to a meme we all love and recognize.  $SQUID is a meme coin with no intrinsic value or expectation of financial return.  There is no formal team or roadmap. The coin is completely useless and for entertainment purposes only.
+            $SQUID is a meme coin with no expectation of financial return.  This coin is simply paying homage to a very Handsome Meme that we all love.  There is no formal dev team, it is a Community driven project for fans of the Handsome Meme format.  $SQUID is for entertainment purposes only.  
+
             </p>
 
         </div>

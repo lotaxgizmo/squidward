@@ -10,10 +10,10 @@ import motherroll from '../assets/motherroll.svg'
 
 function About() {
     return (
-        <div className='flex flex-col relative w-full mt-16 items-center' id='ABOUT'>
+        <div className='flex flex-col relative w-full mt-16 items-center justify-center' id='ABOUT'>
             <img src={aboutaquidward} alt="" />
 
-            <div className="flex flex-col lg:flex-row w-full   px-4 relative lg:px-20">
+            <div className="flex flex-col lg:flex-row w-full items-center justify-center  px-4 relative lg:px-20">
                 <div className="flex flex-col 1 lg:w-2/4 items-start">
                     <img src={text1} alt="" className='my-5' />
                     <img src={text2} alt="" className='my-5' />
@@ -25,7 +25,7 @@ function About() {
                     <img src={squidwardface} alt="" />
 
                 </div>
-                <img src={squidwardbills} alt="" className='absolute bottom-0' />
+                <img src={squidwardbills} alt="" className='w-[900px] absolute bottom-0S ' />
             </div>
             <img src={motherroll} alt="" className='w-full  bottom-0' />
         </div>
