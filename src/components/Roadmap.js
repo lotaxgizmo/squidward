@@ -2,7 +2,7 @@ import React from 'react'
 import roadmapsquidward from '../assets/roadmapsquidward.svg'
 import squidwardrd1 from '../assets/squidwardrd1.svg'
 import joinsquidward from '../assets/joinsquidward.svg'
-import squidwardfish from '../assets/squidwardfish.svg'
+import squidwardfish from '../assets/sw.png'
 
 function Roadmap() {
     return (
