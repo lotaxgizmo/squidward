@@ -1,6 +1,6 @@
 import React from 'react'
 import squidwardface2 from '../assets/squidwardface2.svg'
-import squidwardface from '../assets/squidwardface.svg'
+import squidwardface from '../assets/chadwardbike.png'
 import buynowsquidward from '../assets/buynowsquidward.svg'
 import aboutaquidward from '../assets/aboutaquidward.svg'
 import squidwardbills from '../assets/squidwardbills.svg'
